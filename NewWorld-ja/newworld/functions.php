@@ -24,4 +24,8 @@ register_sidebar( array(
 add_theme_support( 'post-thumbnails' );
 set_post_thumbnail_size(220, 165, true ); // 幅 220px、高さ 165px、切り抜きモード
 
+
+// カスタムナビゲーションメニュー
+add_theme_support('menus');
+
 ?>
